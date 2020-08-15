@@ -74,14 +74,19 @@ hr{
 
 .top-container{
     background-color: #ffefe6;
-    padding-top: 5%;
-    margin: 0;
+    padding-top: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0; */
     /*border: solid 10px;*/
 }
 
 .top-container-img{
-    width: 70%;
+    width: 50%;
     height: auto;
+    margin: 0;
     /* padding-left: 500px; */
 }
 
@@ -169,7 +174,11 @@ hr{
     text-emphasis: none;
     font-weight: bolder;
     font-family: var(--secondaryFont);
+    color: var(--primaryColor);
     padding: 0 10px 0 10px;
 }
 
+.footer-link:hover{
+    color: var(--secondaryColor);
+}
 
