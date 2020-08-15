@@ -62,10 +62,10 @@ hr{
     word-spacing: 1px;
 }
 
-.nav-bar{
+/* .nav-bar{
     height: 100px;
     background-color: #414040;
-}
+} */
 
 .box{
     height: 200px;
@@ -125,15 +125,15 @@ hr{
 }
 
 .contact-me{
-    height: 300px;
-    margin: 0;
+    min-height: 350px;
+    margin: auto;
     padding: 50px 0 50px 0;
     background-color: var(--primaryColor);
 }
 
 .contact-message{
     width: 40%;
-    margin: 50px 0 50px 0;
+    margin: 40px auto 50px ;
 }
 
 .btn{
@@ -142,6 +142,7 @@ hr{
     position: relative;
     font-size: 30px;
     font-family: var(--primaryFont);
+    color: var(--primaryColor);
     border: none;
     width: 250px;
     border-radius: 4px;
@@ -150,9 +151,9 @@ hr{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-.btn-name{
-    color: var(--primaryColor);
-    text-decoration: none;
+.btn:hover{
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
 }
 
 .bottom-container{
